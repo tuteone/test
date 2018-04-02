@@ -2,9 +2,7 @@
 
 ## Usage
 
-### PhoneGap CLI
-
-    $ phonegap create my-app --template blank
+### Android    Install App
 
 ### Desktop
 

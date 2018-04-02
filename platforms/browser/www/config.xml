@@ -2,11 +2,25 @@
 <widget id="com.tuteone.plustwow" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>TuteOne Plus Two Welcome</name>
     <description>
-        A blank PhoneGap app.
+        TuteOne Plus Two Welcome App
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+    <author email="tuteone2015@gmail.com" href="http://tuteone.com">
+        TuteOne Team
     </author>
     <content src="index.html" />
     <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-navigation href="https://*youtube.com/*" />
+    <allow-navigation href="http://*tuteone.net/*" />
+    <allow-navigation href="http://*tuteone.com/*" />
+    <splash platform="android" qualifier="port-ldpi" src="images/200x320.png" />
+    <splash platform="android" qualifier="port-mdpi" src="images/320x480.png" />
+    <splash platform="android" qualifier="port-hdpi" src="images/480x800.png" />
+    <splash platform="android" qualifier="port-xhdpi" src="images/720px1280.png" />
+    <splash platform="android" qualifier="land-ldpi" src="images/320x200.png" />
+    <splash platform="android" qualifier="land-mdpi" src="images/480x320.png" />
+    <splash platform="android" qualifier="land-hdpi" src="images/800x480.png" />
+    <splash platform="android" qualifier="land-xhdpi" src="images/1280x720.png" />
+    <icon src="icon.png" />
 </widget>

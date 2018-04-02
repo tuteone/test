@@ -1,8 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.tuteone.plustwow" 
-		version="1.0.0" 
+		version="1.1.0" 
 		xmlns="http://www.w3.org/ns/widgets" 
 		xmlns:gap="http://phonegap.com/ns/1.0">
+		
     <name>TuteOne Plus Two Welcome</name>
     <description>
         TuteOne Plus Two Welcome App
@@ -10,7 +11,30 @@
     <author email="tuteone2015@gmail.com" href="http://tuteone.com">
         TuteOne Team
     </author>
+	<icon src="icon.png" />
     <content src="index.html" />
     <access origin="*" />
+	<!-- Allow links to web pages to open in a browser -->
+<allow-intent href="http://*/*" />
+<allow-intent href="https://*/*" />
+<allow-navigation href="https://*youtube.com/*"/>
+<allow-navigation href="http://*tuteone.net/*"/>
+<allow-navigation href="http://*tuteone.com/*"/>
+
+	
+
+<splash platform="android" qualifier="port-ldpi" src="images/200x320.png" />
+<splash platform="android" qualifier="port-mdpi" src="images/320x480.png" />
+<splash platform="android" qualifier="port-hdpi" src="images/480x800.png" />
+<splash platform="android" qualifier="port-xhdpi" src="images/720px1280.png" />
+ 
+<splash platform="android" qualifier="land-ldpi" src="images/320x200.png" />
+<splash platform="android" qualifier="land-mdpi" src="images/480x320.png" />
+<splash platform="android" qualifier="land-hdpi" src="images/800x480.png" />
+<splash platform="android" qualifier="land-xhdpi" src="images/1280x720.png" />
+
+<plugin name="cordova-plugin-splashscreen" source="npm" />
+<plugin name="cordova-plugin-inappbrowser" source="npm"/>
+
 	
 </widget>
