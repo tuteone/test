@@ -12,6 +12,9 @@
         },
         "cordova-plugin-inappbrowser": {
             "PACKAGE_NAME": "com.tuteone.plustwow"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.tuteone.plustwow"
         }
     },
     "dependent_plugins": {},
@@ -48,6 +51,7 @@
     ],
     "plugin_metadata": {
         "cordova-plugin-splashscreen": "5.0.2",
-        "cordova-plugin-inappbrowser": "2.0.2"
+        "cordova-plugin-inappbrowser": "2.0.2",
+        "cordova-plugin-whitelist": "1.3.3"
     }
 }

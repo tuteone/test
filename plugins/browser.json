@@ -12,6 +12,9 @@
         },
         "cordova-plugin-inappbrowser": {
             "PACKAGE_NAME": "com.tuteone.plustwow"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.tuteone.plustwow"
         }
     },
     "dependent_plugins": {}
