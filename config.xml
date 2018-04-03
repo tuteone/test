@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.tuteone.plustwow" 
-		version="1.4.1" 
+		version="1.4.2" 
 		xmlns="http://www.w3.org/ns/widgets" 
 		xmlns:gap="http://phonegap.com/ns/1.0">
 		
@@ -20,6 +20,7 @@
 <allow-navigation href="https://*youtube.com/*"/>
 <allow-navigation href="http://*tuteone.net/*"/>
 <allow-navigation href="http://*tuteone.com/*"/>
+<allow-intent href="*" />
 
 	
 
@@ -36,6 +37,5 @@
 <plugin name="cordova-plugin-splashscreen" source="npm" />
 <plugin name="cordova-plugin-inappbrowser" source="npm"/>
 <plugin name="cordova-plugin-whitelist" source="npm"/>
-<gap:plugin name="cordova-plugin-document-viewer" />
 	
 </widget>

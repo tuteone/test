@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.tuteone.plustwow" version="1.4.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.tuteone.plustwow" version="1.4.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>TuteOne Plus Two Welcome</name>
     <description>
         TuteOne Plus Two Welcome App
@@ -15,6 +15,7 @@
     <allow-navigation href="https://*youtube.com/*" />
     <allow-navigation href="http://*tuteone.net/*" />
     <allow-navigation href="http://*tuteone.com/*" />
+    <allow-intent href="*" />
     <splash platform="android" qualifier="port-ldpi" src="images/200x320.png" />
     <splash platform="android" qualifier="port-mdpi" src="images/320x480.png" />
     <splash platform="android" qualifier="port-hdpi" src="images/480x800.png" />
@@ -23,5 +24,4 @@
     <splash platform="android" qualifier="land-mdpi" src="images/480x320.png" />
     <splash platform="android" qualifier="land-hdpi" src="images/800x480.png" />
     <splash platform="android" qualifier="land-xhdpi" src="images/1280x720.png" />
-    <gap:plugin name="cordova-plugin-document-viewer" />
 </widget>
