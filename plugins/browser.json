@@ -15,6 +15,9 @@
         },
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.tuteone.plustwow"
+        },
+        "cordova-plugin-document-viewer": {
+            "PACKAGE_NAME": "com.tuteone.plustwow"
         }
     },
     "dependent_plugins": {}

@@ -28,6 +28,15 @@ module.exports = [
         "id": "cordova-plugin-inappbrowser.InAppBrowserProxy",
         "pluginId": "cordova-plugin-inappbrowser",
         "runs": true
+    },
+    {
+        "file": "plugins/cordova-plugin-document-viewer/www/sitewaertsdocumentviewer.js",
+        "id": "cordova-plugin-document-viewer.SitewaertsDocumentViewer",
+        "pluginId": "cordova-plugin-document-viewer",
+        "clobbers": [
+            "cordova.plugins.SitewaertsDocumentViewer",
+            "SitewaertsDocumentViewer"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -35,7 +44,8 @@ module.exports.metadata =
 {
     "cordova-plugin-splashscreen": "5.0.2",
     "cordova-plugin-inappbrowser": "2.0.2",
-    "cordova-plugin-whitelist": "1.3.3"
+    "cordova-plugin-whitelist": "1.3.3",
+    "cordova-plugin-document-viewer": "0.9.9"
 }
 // BOTTOM OF METADATA
 });
